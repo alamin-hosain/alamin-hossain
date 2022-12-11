@@ -12,7 +12,7 @@ const Contact = () => {
 
             <div className='bg-[#0a192f] text-white lg:w-[1200px] mx-auto mt-40 px-10 lg:px-20 
             py-16 flex flex-col lg:flex-row rounded-2xl space-y-8 lg:space-y-0 border'>
-                <div className='flex flex-col space-y-8 lg:hidden' data-aos="fade-up">
+                <div className='flex flex-col space-y-8 lg:hidden'>
                     <h4 className='text-3xl'>Starting a Project</h4>
                     <p className='lg:w-2/5'>Interested to work with me ? How about we schedule a time to chat? Let's make it happen. </p>
                     <div>
@@ -22,7 +22,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='hidden lg:flex justify-between items-center  ' data-aos="fade-up">
+                <div className='hidden lg:flex justify-between items-center'>
 
                     <h4 className='text-3xl'>Starting a Project</h4>
                     <p className='lg:w-2/5 text-lg tracking-wider'>Interested to work with me ? How about we schedule a time to chat? Let's make it happen. </p>
