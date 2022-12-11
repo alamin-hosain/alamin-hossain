@@ -13,7 +13,21 @@ const nextConfig = {
     });
     return config;
   }
-
 }
 
-module.exports = nextConfig
+
+
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        port: '',
+        pathname: '/account123/**',
+      },
+    ],
+  },
+}
+
+

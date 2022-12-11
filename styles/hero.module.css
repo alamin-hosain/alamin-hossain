@@ -1,0 +1,22 @@
+.hero {
+    font-size: 3rem;
+    position: relative;
+    height: 100vh;
+
+
+}
+
+.hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hero:nth-child(odd) {
+
+    color: white;
+    background-color: #b61924;
+
+}

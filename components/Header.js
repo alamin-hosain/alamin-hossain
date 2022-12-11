@@ -6,16 +6,16 @@ import styles from '../styles/header.module.css';
 const Header = () => {
     const menuItems = <>
         <Link className='hover:text-primary' href='/about'>About</Link>
-        <Link className='hover:text-primary' href='/work'>Work</Link>
+        <Link className='hover:text-primary' href='/blog'>Blog</Link>
         <Link className='hover:text-primary' href='/contact'>Contact</Link>
-        <Link href='/experience' className="hidden lg:flex hover:text-primary">Experience</Link>
+
     </>
 
     return (
-        <>
-            <div className={`flex justify-between items-center px-2 lg:px-0 lg:w-[1200px] mx-auto py-6 ${styles.header}`}>
-                <div className='flex justify-center items-center'>
+        <div className='bg-[#0a192f]'>
 
+            <div className={`flex justify-between items-center px-2 lg:px-0 lg:w-[1200px] mx-auto py-6  ${styles.header}`}>
+                <div className='flex justify-center items-center'>
                     <Link href='/' className="text-3xl font-bold">ALAMIN.h</Link>
                 </div>
                 <div>
@@ -26,7 +26,7 @@ const Header = () => {
                 </div>
             </div>
 
-        </>
+        </div>
     );
 };
 
