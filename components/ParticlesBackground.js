@@ -22,7 +22,7 @@ const ParticleBackground = () => {
             options={{
                 "fullScreen": {
                     "enable": true,
-                    "zIndex": -1
+                    "zIndex": -10
                 },
                 "particles": {
                     "number": {

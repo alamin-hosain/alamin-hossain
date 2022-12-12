@@ -3,6 +3,7 @@ import '../styles/globals.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import ParticleBackground from '../components/ParticlesBackground';
 
 function MyApp({ Component, pageProps }) {
 
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className='bg-[#233554]'>
       <Layout>
+        <ParticleBackground />
         <Component {...pageProps} />
       </Layout>
     </div>

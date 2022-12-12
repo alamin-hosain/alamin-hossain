@@ -13,10 +13,10 @@ const Contact = () => {
             <div className='bg-[#0a192f] text-white lg:w-[1200px] mx-auto mt-40 px-10 lg:px-20 
             py-16 flex flex-col lg:flex-row rounded-2xl space-y-8 lg:space-y-0 border'>
                 <div className='flex flex-col space-y-8 lg:hidden'>
-                    <h4 className='text-3xl'>Starting a Project</h4>
+                    <h4 className='text-2xl'>Starting a Project</h4>
                     <p className='lg:w-2/5'>Interested to work with me ? How about we schedule a time to chat? Let's make it happen. </p>
                     <div>
-                        <button className='border border-accent px-12 py-4 rounded-lg transition-all hover:bg-accent hover:scale-10 hover:text-black'>
+                        <button className='border border-accent px-4 py-4 rounded-lg transition-all hover:bg-accent hover:scale-10 hover:text-black'>
                             Lets Work Together
                         </button>
                     </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                 </svg>
 
                 <div className='text-center mb-12 lg:mb-12 space-y-6 lg:space-y-4 mt-24'>
-                    <h3 className='text-5xl font-semibold uppercase'>Hire Me.</h3>
+                    <h3 className='text-3xl lg:text-5xl font-semibold uppercase'>Hire Me.</h3>
                     <div className='w-32 mx-auto'>
                         <span className='text-4xl font-bold'>
                             <hr className='border-2' />
@@ -57,7 +57,7 @@ const Contact = () => {
                     <input name='email' className='rounded-sm bg-[#233554] py-2 px-10 outline-none ' type="email" placeholder='Email' required />
                     <textarea className='rounded-sm bg-[#233554] py-3 px-10 outline-none' name="message" id="" cols="30" rows="7" placeholder='Message' required></textarea>
                     <div className='flex justify-end'>
-                        <input className='bg-[#233554] text-white py-2 cursor-pointer hover:bg-[#0a192f] transition-all border-2 w-1/5 uppercase mt-2 tracking-wider' type="submit" value="SUBMIT" />
+                        <input className='bg-[#233554] text-white w-2/5 py-2 cursor-pointer hover:bg-[#0a192f] transition-all border-2 lg:w-1/5 uppercase mt-2 tracking-wider' type="submit" value="SUBMIT" />
                     </div>
                 </form>
             </div>

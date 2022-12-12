@@ -2,14 +2,14 @@ import Image from 'next/image';
 import React from 'react';
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import profile from '../assets/profile.jpeg';
-import ParticleBackground from '../components/ParticlesBackground';
+
 
 const About = () => {
     return (
         <>
-            <ParticleBackground />
+
             <div className='bg-[#0a192f]'>
-                <div className='flex flex-col-reverse lg:flex-row h-screen justify-center items-center lg:w-[1200px] mx-auto '>
+                <div className='flex flex-col-reverse lg:flex-row justify-center items-center lg:w-[1200px] mx-auto py-20'>
                     <div className='lg:w-3/5 px-10 lg:px-0 pr-12'>
                         <h3 className='w-4/5 text-4xl font-bold uppercase mb-6 text-[#8892b0]'>About Me.</h3>
                         <hr className='text-primary py-4 -mt-2 w-2/5' />

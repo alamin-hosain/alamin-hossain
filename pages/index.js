@@ -8,6 +8,7 @@ export default function Home({ projects }) {
 
   return (
     <div>
+
       <Hero />
       <div className="px-10 lg:px-0">
         <Projects />

@@ -1,25 +1,20 @@
 
 import React from 'react';
-import ParticleBackground from './ParticlesBackground';
-
-
-
 const Hero = () => {
-
 
 
     return (
 
         <>
-            <ParticleBackground />
+
 
             <div className='flex justify-center items-center py-32 lg:py-52 bg-[#0a192f] px-10 lg:px-0 hero' id="particles-js" >
 
                 <div className='flex flex-col lg:w-[1200px] mx-auto '>
                     <div className='space-y-6'>
                         <p className='text-primary'>Hi, I am</p>
-                        <h1 className='text-5xl md:text-7xl font-semibold'>Alamin Hossain.</h1>
-                        <h1 className='text-5xl md:text-7xl font-semibold'>I Code Web Based Projects.</h1>
+                        <h1 className='text-4xl md:text-7xl font-semibold'>Alamin Hossain.</h1>
+                        <h1 className='text-4xl md:text-7xl font-semibold'>I Code Web Based Projects.</h1>
                         <p className='md:w-4/5 text-lg tracking-wider'>I am experience in creating web-based projects using <span className='text-primary'>React Js, Next Js, Express Js, MongoDB and Firebase.</span> I am skilled at building things for the internet and enjoy bringing ideas to life on the web.</p>
                     </div>
                     <div className='mt-12'>

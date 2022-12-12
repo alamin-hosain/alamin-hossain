@@ -15,6 +15,7 @@ import edumyThree from '../../assets/edumyThree.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 const ProjectDetails = () => {
 
     const cardItems = [
@@ -80,6 +81,7 @@ const ProjectDetails = () => {
 
     return (
         <div className='px-10 lg:px-0 lg:w-[1200px] mx-auto lg:pt-20 pb-40'>
+
             <div className='grid lg:grid-cols-2 lg:pt-32'>
                 <div className='flex flex-col space-y-4 pt-32'>
                     <h2 className='text-lg text-primary'>Project Name</h2>
@@ -131,6 +133,7 @@ const ProjectDetails = () => {
 
                 </div>
             </div>
+
         </div>
     );
 };
