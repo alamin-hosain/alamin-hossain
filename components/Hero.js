@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import React from 'react';
 const Hero = () => {
 
@@ -17,11 +18,11 @@ const Hero = () => {
                         <h1 className='text-4xl md:text-7xl font-semibold'>I Code Web Based Projects.</h1>
                         <p className='md:w-4/5 text-lg tracking-wider'>I am experience in creating web-based projects using <span className='text-primary'>React Js, Next Js, Express Js, MongoDB and Firebase.</span> I am skilled at building things for the internet and enjoy bringing ideas to life on the web.</p>
                     </div>
-                    <div className='mt-12'>
+                    <div className='mt-12 z-50'>
 
-                        <a href="ResumeOfAlamin.pdf" download="ResumeOfAlamin.pdf">
+                        <Link href="ResumeOfAlamin.pdf" download="ResumeOfAlamin.pdf">
                             <button className='border border-primary py-4 w-60 hover:bg-[#21a1837b] transition-all delay-75 hover:scale-95 rounded-lg' >Download Resume</button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

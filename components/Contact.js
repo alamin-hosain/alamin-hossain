@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { FaPhoneSquare } from "react-icons/fa";
 
 const Contact = () => {
 
@@ -17,7 +18,7 @@ const Contact = () => {
                     <p className='lg:w-2/5'>Interested to work with me ? How about we schedule a time to chat? Let's make it happen. </p>
                     <div>
                         <button className='border border-accent px-4 py-4 rounded-lg transition-all hover:bg-accent hover:scale-10 hover:text-black'>
-                            Lets Work Together
+                            <Link href={`mailto:alaminhossainim@gmail.com`}>Lets Work Together</Link>
                         </button>
                     </div>
                 </div>
@@ -28,7 +29,7 @@ const Contact = () => {
                     <p className='lg:w-2/5 text-lg tracking-wider'>Interested to work with me ? How about we schedule a time to chat? Let's make it happen. </p>
                     <div>
                         <button className='border border-accent px-12 py-4  hover:bg-[#21a1837b] transition-all delay-75 hover:scale-95 rounded-lg'>
-                            Lets Work Together
+                            <Link href={`mailto:alaminhossainim@gmail.com`}>Lets Work Together</Link>
                         </button>
                     </div>
                 </div>
@@ -48,8 +49,15 @@ const Contact = () => {
                             <hr className='border-2' />
                         </span>
                     </div>
+                    <div>
 
-                    <p>I am available for Remote Job. Call: +8801401816162</p>
+
+                        <div className='flex justify-center items-center'>
+                            <p className='mr-4'>I am available for Remote Job. </p>
+                            <span className='mr-2'><FaPhoneSquare /></span>
+                            <p> +8801401816162</p>
+                        </div>
+                    </div>
                 </div>
                 <form className='flex flex-col space-y-1 px-4 lg:px-0 lg:w-2/4 mx-auto' action="https://formspree.io/f/xbjbnwow"
                     method="POST"  >

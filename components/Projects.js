@@ -84,7 +84,7 @@ const Projects = () => {
                     cardItems.map(card => <Card key={card.id} project={card} />)
                 }
             </div>
-            <h3 className='text-center mt-20 border w-2/5 md:w-1/5 mx-auto py-4 rounded-lg border-primary hover:bg-[#21a1837b] transition-all delay-75 hover:scale-95 cursor-pointer'>See More</h3>
+            <h3 className='text-center mt-20 border w-3/5 md:w-2/5 mx-auto py-4 rounded-lg border-primary hover:bg-[#21a1837b] transition-all delay-75 hover:scale-95 cursor-pointer'>More Projects Comming</h3>
         </div >
     );
 };

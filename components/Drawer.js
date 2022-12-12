@@ -2,7 +2,7 @@ import React from 'react';
 
 const Drawer = ({ menuItems }) => {
     return (
-        <div className="drawer drawer-end absolute overflow-hidden ">
+        <div className="drawer drawer-end absolute overflow-hidden  lg:-z-10">
             <input id="portfolio-drawer" type="checkbox" className="drawer-toggle" />
             <div className="drawer-side ">
                 <label htmlFor="portfolio-drawer" className="drawer-overlay"></label>
