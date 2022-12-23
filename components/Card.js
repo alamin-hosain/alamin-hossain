@@ -19,7 +19,7 @@ const Card = ({ project }) => {
     setTimeout(() => { console.log("this is the first message") }, 5000);
 
     return (
-        <div className='card relative transition-all' onMouseEnter={handleMouseHover} onMouseLeave={mouseOut}>
+        <div className='card relative transition-all overflow-hidden' onMouseEnter={handleMouseHover} onMouseLeave={mouseOut}>
 
             {
                 hover ? <div className='bg-[#1d1d1d] absolute h-[363px] w-full p-8 text-center flex flex-col justify-center items-center border border-primary cursor-pointer' data-aos="zoom-out">

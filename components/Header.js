@@ -2,7 +2,9 @@
 import Link from 'next/link';
 import styles from '../styles/header.module.css';
 import Drawer from './Drawer';
-
+import logo from '../assets/logo.png';
+import logo2 from '../assets/logo2.png';
+import Image from 'next/image';
 
 const Header = () => {
     const menuItems = <>
@@ -18,7 +20,9 @@ const Header = () => {
 
             <div className={`flex justify-between items-center px-2 lg:px-0 lg:w-[1200px] mx-auto py-6  ${styles.header}`}>
                 <div className='flex justify-center items-center'>
-                    <Link href='/' className="text-3xl font-bold">ALAMIN.h</Link>
+                    <Link href='/' className="text-3xl font-bold">
+                        <Image src={logo} width={200}></Image>
+                    </Link>
                 </div>
                 <div className='hidden lg:flex items-center'>
 
