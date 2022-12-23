@@ -16,7 +16,7 @@ const Hero = () => {
                         <p className='text-primary'>Hi, I am</p>
                         <h1 className='text-4xl md:text-7xl font-semibold'>Alamin Hossain.</h1>
                         <h1 className='text-4xl md:text-7xl font-semibold'>I Code Web Based Projects.</h1>
-                        <p className='md:w-4/5 text-lg tracking-wider'>I am experience in creating web-based projects using <span className='text-primary'>React Js, Next Js, Express Js, MongoDB and Firebase.</span> I am skilled at building things for the internet and enjoy bringing ideas to life on the web.</p>
+                        <p className='md:w-4/5 text-lg tracking-wider'>I am experience in creating web-based projects using <span className='text-primary'>React Js, Next Js, Express Js, MongoDB and Firebase.</span> I am skilled at building things for the internet and enjoy bringing ideas to life on the web...</p>
                     </div>
                     <div className='mt-12 z-50'>
 
